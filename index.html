@@ -45,7 +45,7 @@
 <header>
   <div class="inner">
     <h1>FareWise Cost &mdash; プライバシーポリシー / Privacy Policy</h1>
-    <div class="sub">最終更新 / Last updated: 2026-10-07</div>
+    <div class="sub">最終更新 / Last updated: 2026-10-29</div>
   </div>
 </header>
 
@@ -82,7 +82,7 @@ FareWise Cost（以下「本アプリ」）は、G-Works が提供する Windows
   <li><strong>年度のデータ</strong>（会社名・年度・会社前提、間接費、車両と費目、運転者人件費、ルート、取引先名と年間売上、契約額などの計算条件）。
       <code>%APPDATA%\FareWiseCost\farewise_cost.db</code> に保存します。会社名・取引先名などは利用者が入力したものだけです。</li>
   <li><strong>原価計算書</strong>（印刷用の HTML）。<code>%APPDATA%\FareWiseCost\reports\</code> に作り、利用者のブラウザーで開きます。</li>
-  <li><strong>利用者が保存を指示したファイル</strong>（車両別原価・ルート別原価の CSV）。保存先は利用者が選びます。</li>
+  <li><strong>利用者が保存を指示したファイル</strong>（車両別原価・ルート別原価・取引先別原価・集計の CSV、データのバックアップ）。保存先は利用者が選びます。</li>
   <li><strong>クリップボード</strong>。バージョン情報の［情報をコピー］を押したときだけ、
       アプリの版・Windows の版・運賃表の告示番号・データの保存先をクリップボードに入れます。</li>
 </ul>
@@ -116,7 +116,7 @@ Microsoft Store 版では、Windows の仕組みにより、上のフォルダ�
 車両・ルート・取引先は本アプリで 1 件ずつ、年度はメニューの「この年度を削除」で削除できます。
 <code>%APPDATA%\FareWiseCost\</code> フォルダーを削除すれば、すべてのデータと原価計算書が消えます
 （Microsoft Store 版で保存先がアプリ専用のフォルダーに置き換わっている場合は、アンインストールで消えます）。
-利用者が保存した CSV ファイルは、アプリをアンインストールしても残ります。
+利用者が保存した CSV ファイルとバックアップは、アプリをアンインストールしても残ります。
 </p>
 
 <h3>7. セキュリティ</h3>
@@ -175,7 +175,7 @@ It does not collect or transmit any information about you, and it never contacts
       <code>%APPDATA%\FareWiseCost\farewise_cost.db</code>. Names are only what you type in.</li>
   <li><strong>Cost statements</strong> (printable HTML), created in <code>%APPDATA%\FareWiseCost\reports\</code>
       and opened in your browser.</li>
-  <li><strong>Files you ask it to save</strong> (vehicle and route costs as CSV). You choose where they go.</li>
+  <li><strong>Files you ask it to save</strong> (vehicle, route, customer and summary costs as CSV, and data backups). You choose where they go.</li>
   <li><strong>The clipboard</strong>, only when you press Copy information in the About box
       (App version, Windows version, tariff notice numbers and the data folder).</li>
 </ul>
@@ -207,7 +207,7 @@ that traffic is made by your browser and contains no information from the App.
 Your data stays on your device until you delete it. Vehicles, routes and customers can be deleted one by one in the App,
 and a fiscal year with the menu item to delete the year. Deleting the <code>%APPDATA%\FareWiseCost\</code> folder removes
 all data and statements (if the Store version redirected it, uninstalling the App deletes it).
-CSV files you saved remain after uninstalling.
+CSV files and backups you saved remain after uninstalling.
 </p>
 
 <h3>7. Security</h3>
